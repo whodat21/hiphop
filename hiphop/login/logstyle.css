@@ -1,0 +1,222 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image:  url(https://wallpaperaccess.com/full/2110723.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.loginbox {
+    width: 56vh;
+    height: 500px;
+    background: rgba(94, 10, 173, 0.9);
+    color: white;
+    margin: 0px auto;
+    margin-top: 500px;   
+    position: relative;
+    transform: translate(-50%, -50);
+    box-sizing: 70px 30px;
+    padding: 70px 30px;
+    box-shadow: 0 0 20px 3px rgba(0,0,0,1.0);
+    margin-top: 70px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.loginbox input {
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1.0px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+
+}
+
+::placeholder {
+    color: gray;
+}
+
+.loginbox input[value="LOGIN"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.loginbox a{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    font-size: 15px;
+    line-height: 25px;
+    color: gray;
+    font-weight: bold;
+}
+
+.loginbox input[value=REGISTER] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: green;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+
+.loginbox input[type="button"]:hover{
+    cursor: pointer;
+    background: magenta;
+    color: black;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: magenta;
+    color: black;
+}
+
+.loginbox i{
+    width: 25px;
+}
+
+.eye{
+    position: absolute;
+}
+
+#enable {
+    display: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+.logo{
+    background: rgba(255, 255, 255, 0);
+    width: 50%;
+    margin: auto;
+    position: relative;
+
+}
+
+.graficlogo {
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.mw-100 {
+    max-width: 100%;
+    margin-bottom: 10vh;
+
+}
+
+.advantages_container {
+    display: flex;
+    justify-content: center;
+}
+
+.advantages{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.advantages_item {
+    width: 30%;
+}
+footer{
+    background-color: black;
+}
+
+.footer {
+        position: relative;
+        margin-top: 700px;
+        width: 100%;
+        color: #737373;
+        text-align: center;
+        font-family: 'Oxanium', cursive;
+        font-family: 'Spartan', sans-serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+@media screen and (max-width: 420px){
+    .advantages{
+        flex-direction: column;
+    }
+
+    .advantages_item{
+        width: 100%;
+    }
+}
+
+.form {
+    position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+}
+
+#log-container {
+    position: fixed;
+    width: 340px;
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+label {
+    color: #555;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
